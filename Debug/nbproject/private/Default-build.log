@@ -1,0 +1,582 @@
+Building file: ../utilities/fsl_debug_console.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"utilities/fsl_debug_console.d" -MT"utilities/fsl_debug_console.o" -c -o "utilities/fsl_debug_console.o" "../utilities/fsl_debug_console.c"
+Finished building: ../utilities/fsl_debug_console.c
+ 
+Building file: ../startup/startup_MK64F12.S
+Invoking: Cross ARM GNU Assembler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -x assembler-with-cpp -MMD -MP -MF"startup/startup_MK64F12.d" -MT"startup/startup_MK64F12.o" -c -o "startup/startup_MK64F12.o" "../startup/startup_MK64F12.S"
+Finished building: ../startup/startup_MK64F12.S
+ 
+Building file: ../startup/system_MK64F12.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"startup/system_MK64F12.d" -MT"startup/system_MK64F12.o" -c -o "startup/system_MK64F12.o" "../startup/system_MK64F12.c"
+Finished building: ../startup/system_MK64F12.c
+ 
+Building file: ../source/main.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -I../CMSIS -I"/Bascon/KDS/lgt8/Sweep" -I"/Bascon/KDS/lgt8/Servo" -I"/Bascon/KDS/lgt8/Monitor" -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip" -I../board -I../drivers -I../startup -I../utilities -std=gnu++11 -fabi-version=0 -MMD -MP -MF"source/main.d" -MT"source/main.o" -c -o "source/main.o" "../source/main.cpp"
+Finished building: ../source/main.cpp
+ 
+Building file: ../lwip/src/netif/ppp/auth.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/auth.d" -MT"lwip/src/netif/ppp/auth.o" -c -o "lwip/src/netif/ppp/auth.o" "../lwip/src/netif/ppp/auth.c"
+Finished building: ../lwip/src/netif/ppp/auth.c
+ 
+Building file: ../lwip/src/netif/ppp/chap.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/chap.d" -MT"lwip/src/netif/ppp/chap.o" -c -o "lwip/src/netif/ppp/chap.o" "../lwip/src/netif/ppp/chap.c"
+Finished building: ../lwip/src/netif/ppp/chap.c
+ 
+Building file: ../lwip/src/netif/ppp/chpms.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/chpms.d" -MT"lwip/src/netif/ppp/chpms.o" -c -o "lwip/src/netif/ppp/chpms.o" "../lwip/src/netif/ppp/chpms.c"
+Finished building: ../lwip/src/netif/ppp/chpms.c
+ 
+Building file: ../lwip/src/netif/ppp/fsm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/fsm.d" -MT"lwip/src/netif/ppp/fsm.o" -c -o "lwip/src/netif/ppp/fsm.o" "../lwip/src/netif/ppp/fsm.c"
+Finished building: ../lwip/src/netif/ppp/fsm.c
+ 
+Building file: ../lwip/src/netif/ppp/ipcp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/ipcp.d" -MT"lwip/src/netif/ppp/ipcp.o" -c -o "lwip/src/netif/ppp/ipcp.o" "../lwip/src/netif/ppp/ipcp.c"
+Finished building: ../lwip/src/netif/ppp/ipcp.c
+ 
+Building file: ../lwip/src/netif/ppp/lcp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/lcp.d" -MT"lwip/src/netif/ppp/lcp.o" -c -o "lwip/src/netif/ppp/lcp.o" "../lwip/src/netif/ppp/lcp.c"
+Finished building: ../lwip/src/netif/ppp/lcp.c
+ 
+Building file: ../lwip/src/netif/ppp/magic.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/magic.d" -MT"lwip/src/netif/ppp/magic.o" -c -o "lwip/src/netif/ppp/magic.o" "../lwip/src/netif/ppp/magic.c"
+Finished building: ../lwip/src/netif/ppp/magic.c
+ 
+Building file: ../lwip/src/netif/ppp/md5.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/md5.d" -MT"lwip/src/netif/ppp/md5.o" -c -o "lwip/src/netif/ppp/md5.o" "../lwip/src/netif/ppp/md5.c"
+Finished building: ../lwip/src/netif/ppp/md5.c
+ 
+Building file: ../lwip/src/netif/ppp/pap.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/pap.d" -MT"lwip/src/netif/ppp/pap.o" -c -o "lwip/src/netif/ppp/pap.o" "../lwip/src/netif/ppp/pap.c"
+Finished building: ../lwip/src/netif/ppp/pap.c
+ 
+Building file: ../lwip/src/netif/ppp/ppp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/ppp.d" -MT"lwip/src/netif/ppp/ppp.o" -c -o "lwip/src/netif/ppp/ppp.o" "../lwip/src/netif/ppp/ppp.c"
+Finished building: ../lwip/src/netif/ppp/ppp.c
+ 
+Building file: ../lwip/src/netif/ppp/ppp_md5.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/ppp_md5.d" -MT"lwip/src/netif/ppp/ppp_md5.o" -c -o "lwip/src/netif/ppp/ppp_md5.o" "../lwip/src/netif/ppp/ppp_md5.c"
+Finished building: ../lwip/src/netif/ppp/ppp_md5.c
+ 
+Building file: ../lwip/src/netif/ppp/ppp_oe.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/ppp_oe.d" -MT"lwip/src/netif/ppp/ppp_oe.o" -c -o "lwip/src/netif/ppp/ppp_oe.o" "../lwip/src/netif/ppp/ppp_oe.c"
+Finished building: ../lwip/src/netif/ppp/ppp_oe.c
+ 
+Building file: ../lwip/src/netif/ppp/randm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/randm.d" -MT"lwip/src/netif/ppp/randm.o" -c -o "lwip/src/netif/ppp/randm.o" "../lwip/src/netif/ppp/randm.c"
+Finished building: ../lwip/src/netif/ppp/randm.c
+ 
+Building file: ../lwip/src/netif/ppp/vj.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/ppp/vj.d" -MT"lwip/src/netif/ppp/vj.o" -c -o "lwip/src/netif/ppp/vj.o" "../lwip/src/netif/ppp/vj.c"
+Finished building: ../lwip/src/netif/ppp/vj.c
+ 
+Building file: ../lwip/src/netif/etharp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/etharp.d" -MT"lwip/src/netif/etharp.o" -c -o "lwip/src/netif/etharp.o" "../lwip/src/netif/etharp.c"
+Finished building: ../lwip/src/netif/etharp.c
+ 
+Building file: ../lwip/src/netif/slipif.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/netif/slipif.d" -MT"lwip/src/netif/slipif.o" -c -o "lwip/src/netif/slipif.o" "../lwip/src/netif/slipif.c"
+Finished building: ../lwip/src/netif/slipif.c
+ 
+Building file: ../lwip/src/core/snmp/asn1_dec.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/snmp/asn1_dec.d" -MT"lwip/src/core/snmp/asn1_dec.o" -c -o "lwip/src/core/snmp/asn1_dec.o" "../lwip/src/core/snmp/asn1_dec.c"
+Finished building: ../lwip/src/core/snmp/asn1_dec.c
+ 
+Building file: ../lwip/src/core/snmp/asn1_enc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/snmp/asn1_enc.d" -MT"lwip/src/core/snmp/asn1_enc.o" -c -o "lwip/src/core/snmp/asn1_enc.o" "../lwip/src/core/snmp/asn1_enc.c"
+Finished building: ../lwip/src/core/snmp/asn1_enc.c
+ 
+Building file: ../lwip/src/core/snmp/mib2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/snmp/mib2.d" -MT"lwip/src/core/snmp/mib2.o" -c -o "lwip/src/core/snmp/mib2.o" "../lwip/src/core/snmp/mib2.c"
+Finished building: ../lwip/src/core/snmp/mib2.c
+ 
+Building file: ../lwip/src/core/snmp/mib_structs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/snmp/mib_structs.d" -MT"lwip/src/core/snmp/mib_structs.o" -c -o "lwip/src/core/snmp/mib_structs.o" "../lwip/src/core/snmp/mib_structs.c"
+Finished building: ../lwip/src/core/snmp/mib_structs.c
+ 
+Building file: ../lwip/src/core/snmp/msg_in.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/snmp/msg_in.d" -MT"lwip/src/core/snmp/msg_in.o" -c -o "lwip/src/core/snmp/msg_in.o" "../lwip/src/core/snmp/msg_in.c"
+Finished building: ../lwip/src/core/snmp/msg_in.c
+ 
+Building file: ../lwip/src/core/snmp/msg_out.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/snmp/msg_out.d" -MT"lwip/src/core/snmp/msg_out.o" -c -o "lwip/src/core/snmp/msg_out.o" "../lwip/src/core/snmp/msg_out.c"
+Finished building: ../lwip/src/core/snmp/msg_out.c
+ 
+Building file: ../lwip/src/core/ipv4/autoip.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/ipv4/autoip.d" -MT"lwip/src/core/ipv4/autoip.o" -c -o "lwip/src/core/ipv4/autoip.o" "../lwip/src/core/ipv4/autoip.c"
+Finished building: ../lwip/src/core/ipv4/autoip.c
+ 
+Building file: ../lwip/src/core/ipv4/icmp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/ipv4/icmp.d" -MT"lwip/src/core/ipv4/icmp.o" -c -o "lwip/src/core/ipv4/icmp.o" "../lwip/src/core/ipv4/icmp.c"
+Finished building: ../lwip/src/core/ipv4/icmp.c
+ 
+Building file: ../lwip/src/core/ipv4/igmp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/ipv4/igmp.d" -MT"lwip/src/core/ipv4/igmp.o" -c -o "lwip/src/core/ipv4/igmp.o" "../lwip/src/core/ipv4/igmp.c"
+Finished building: ../lwip/src/core/ipv4/igmp.c
+ 
+Building file: ../lwip/src/core/ipv4/inet.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/ipv4/inet.d" -MT"lwip/src/core/ipv4/inet.o" -c -o "lwip/src/core/ipv4/inet.o" "../lwip/src/core/ipv4/inet.c"
+Finished building: ../lwip/src/core/ipv4/inet.c
+ 
+Building file: ../lwip/src/core/ipv4/inet_chksum.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/ipv4/inet_chksum.d" -MT"lwip/src/core/ipv4/inet_chksum.o" -c -o "lwip/src/core/ipv4/inet_chksum.o" "../lwip/src/core/ipv4/inet_chksum.c"
+Finished building: ../lwip/src/core/ipv4/inet_chksum.c
+ 
+Building file: ../lwip/src/core/ipv4/ip.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/ipv4/ip.d" -MT"lwip/src/core/ipv4/ip.o" -c -o "lwip/src/core/ipv4/ip.o" "../lwip/src/core/ipv4/ip.c"
+Finished building: ../lwip/src/core/ipv4/ip.c
+ 
+Building file: ../lwip/src/core/ipv4/ip_addr.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/ipv4/ip_addr.d" -MT"lwip/src/core/ipv4/ip_addr.o" -c -o "lwip/src/core/ipv4/ip_addr.o" "../lwip/src/core/ipv4/ip_addr.c"
+Finished building: ../lwip/src/core/ipv4/ip_addr.c
+ 
+Building file: ../lwip/src/core/ipv4/ip_frag.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/ipv4/ip_frag.d" -MT"lwip/src/core/ipv4/ip_frag.o" -c -o "lwip/src/core/ipv4/ip_frag.o" "../lwip/src/core/ipv4/ip_frag.c"
+Finished building: ../lwip/src/core/ipv4/ip_frag.c
+ 
+Building file: ../lwip/src/core/def.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/def.d" -MT"lwip/src/core/def.o" -c -o "lwip/src/core/def.o" "../lwip/src/core/def.c"
+Finished building: ../lwip/src/core/def.c
+ 
+Building file: ../lwip/src/core/dhcp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/dhcp.d" -MT"lwip/src/core/dhcp.o" -c -o "lwip/src/core/dhcp.o" "../lwip/src/core/dhcp.c"
+Finished building: ../lwip/src/core/dhcp.c
+ 
+Building file: ../lwip/src/core/dns.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/dns.d" -MT"lwip/src/core/dns.o" -c -o "lwip/src/core/dns.o" "../lwip/src/core/dns.c"
+Finished building: ../lwip/src/core/dns.c
+ 
+Building file: ../lwip/src/core/init.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/init.d" -MT"lwip/src/core/init.o" -c -o "lwip/src/core/init.o" "../lwip/src/core/init.c"
+Finished building: ../lwip/src/core/init.c
+ 
+Building file: ../lwip/src/core/lwip_timers.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/lwip_timers.d" -MT"lwip/src/core/lwip_timers.o" -c -o "lwip/src/core/lwip_timers.o" "../lwip/src/core/lwip_timers.c"
+Finished building: ../lwip/src/core/lwip_timers.c
+ 
+Building file: ../lwip/src/core/mem.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/mem.d" -MT"lwip/src/core/mem.o" -c -o "lwip/src/core/mem.o" "../lwip/src/core/mem.c"
+Finished building: ../lwip/src/core/mem.c
+ 
+Building file: ../lwip/src/core/memp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/memp.d" -MT"lwip/src/core/memp.o" -c -o "lwip/src/core/memp.o" "../lwip/src/core/memp.c"
+Finished building: ../lwip/src/core/memp.c
+ 
+Building file: ../lwip/src/core/netif.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/netif.d" -MT"lwip/src/core/netif.o" -c -o "lwip/src/core/netif.o" "../lwip/src/core/netif.c"
+Finished building: ../lwip/src/core/netif.c
+ 
+Building file: ../lwip/src/core/pbuf.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/pbuf.d" -MT"lwip/src/core/pbuf.o" -c -o "lwip/src/core/pbuf.o" "../lwip/src/core/pbuf.c"
+Finished building: ../lwip/src/core/pbuf.c
+ 
+Building file: ../lwip/src/core/raw.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/raw.d" -MT"lwip/src/core/raw.o" -c -o "lwip/src/core/raw.o" "../lwip/src/core/raw.c"
+Finished building: ../lwip/src/core/raw.c
+ 
+Building file: ../lwip/src/core/stats.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/stats.d" -MT"lwip/src/core/stats.o" -c -o "lwip/src/core/stats.o" "../lwip/src/core/stats.c"
+Finished building: ../lwip/src/core/stats.c
+ 
+Building file: ../lwip/src/core/sys.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/sys.d" -MT"lwip/src/core/sys.o" -c -o "lwip/src/core/sys.o" "../lwip/src/core/sys.c"
+Finished building: ../lwip/src/core/sys.c
+ 
+Building file: ../lwip/src/core/tcp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/tcp.d" -MT"lwip/src/core/tcp.o" -c -o "lwip/src/core/tcp.o" "../lwip/src/core/tcp.c"
+Finished building: ../lwip/src/core/tcp.c
+ 
+Building file: ../lwip/src/core/tcp_in.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/tcp_in.d" -MT"lwip/src/core/tcp_in.o" -c -o "lwip/src/core/tcp_in.o" "../lwip/src/core/tcp_in.c"
+Finished building: ../lwip/src/core/tcp_in.c
+ 
+Building file: ../lwip/src/core/tcp_out.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/tcp_out.d" -MT"lwip/src/core/tcp_out.o" -c -o "lwip/src/core/tcp_out.o" "../lwip/src/core/tcp_out.c"
+Finished building: ../lwip/src/core/tcp_out.c
+ 
+Building file: ../lwip/src/core/udp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/core/udp.d" -MT"lwip/src/core/udp.o" -c -o "lwip/src/core/udp.o" "../lwip/src/core/udp.c"
+Finished building: ../lwip/src/core/udp.c
+ 
+Building file: ../lwip/src/api/api_lib.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/api/api_lib.d" -MT"lwip/src/api/api_lib.o" -c -o "lwip/src/api/api_lib.o" "../lwip/src/api/api_lib.c"
+Finished building: ../lwip/src/api/api_lib.c
+ 
+Building file: ../lwip/src/api/api_msg.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/api/api_msg.d" -MT"lwip/src/api/api_msg.o" -c -o "lwip/src/api/api_msg.o" "../lwip/src/api/api_msg.c"
+Finished building: ../lwip/src/api/api_msg.c
+ 
+Building file: ../lwip/src/api/err.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/api/err.d" -MT"lwip/src/api/err.o" -c -o "lwip/src/api/err.o" "../lwip/src/api/err.c"
+Finished building: ../lwip/src/api/err.c
+ 
+Building file: ../lwip/src/api/netbuf.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/api/netbuf.d" -MT"lwip/src/api/netbuf.o" -c -o "lwip/src/api/netbuf.o" "../lwip/src/api/netbuf.c"
+Finished building: ../lwip/src/api/netbuf.c
+ 
+Building file: ../lwip/src/api/netdb.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/api/netdb.d" -MT"lwip/src/api/netdb.o" -c -o "lwip/src/api/netdb.o" "../lwip/src/api/netdb.c"
+Finished building: ../lwip/src/api/netdb.c
+ 
+Building file: ../lwip/src/api/netifapi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/api/netifapi.d" -MT"lwip/src/api/netifapi.o" -c -o "lwip/src/api/netifapi.o" "../lwip/src/api/netifapi.c"
+Finished building: ../lwip/src/api/netifapi.c
+ 
+Building file: ../lwip/src/api/sockets.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/api/sockets.d" -MT"lwip/src/api/sockets.o" -c -o "lwip/src/api/sockets.o" "../lwip/src/api/sockets.c"
+Finished building: ../lwip/src/api/sockets.c
+ 
+Building file: ../lwip/src/api/tcpip.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/src/api/tcpip.d" -MT"lwip/src/api/tcpip.o" -c -o "lwip/src/api/tcpip.o" "../lwip/src/api/tcpip.c"
+Finished building: ../lwip/src/api/tcpip.c
+ 
+Building file: ../lwip/port/ethernetif.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/port/ethernetif.d" -MT"lwip/port/ethernetif.o" -c -o "lwip/port/ethernetif.o" "../lwip/port/ethernetif.c"
+Finished building: ../lwip/port/ethernetif.c
+ 
+Building file: ../lwip/port/sys_arch.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/port/sys_arch.d" -MT"lwip/port/sys_arch.o" -c -o "lwip/port/sys_arch.o" "../lwip/port/sys_arch.c"
+Finished building: ../lwip/port/sys_arch.c
+ 
+Building file: ../lwip/fs.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/fs.d" -MT"lwip/fs.o" -c -o "lwip/fs.o" "../lwip/fs.c"
+Finished building: ../lwip/fs.c
+ 
+Building file: ../lwip/fsdata.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/fsdata.d" -MT"lwip/fsdata.o" -c -o "lwip/fsdata.o" "../lwip/fsdata.c"
+Finished building: ../lwip/fsdata.c
+ 
+Building file: ../lwip/httpd.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"lwip/httpd.d" -MT"lwip/httpd.o" -c -o "lwip/httpd.o" "../lwip/httpd.c"
+Finished building: ../lwip/httpd.c
+ 
+Building file: ../drivers/fsl_adc16.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_adc16.d" -MT"drivers/fsl_adc16.o" -c -o "drivers/fsl_adc16.o" "../drivers/fsl_adc16.c"
+Finished building: ../drivers/fsl_adc16.c
+ 
+Building file: ../drivers/fsl_clock.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_clock.d" -MT"drivers/fsl_clock.o" -c -o "drivers/fsl_clock.o" "../drivers/fsl_clock.c"
+Finished building: ../drivers/fsl_clock.c
+ 
+Building file: ../drivers/fsl_cmp.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_cmp.d" -MT"drivers/fsl_cmp.o" -c -o "drivers/fsl_cmp.o" "../drivers/fsl_cmp.c"
+Finished building: ../drivers/fsl_cmp.c
+ 
+Building file: ../drivers/fsl_cmt.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_cmt.d" -MT"drivers/fsl_cmt.o" -c -o "drivers/fsl_cmt.o" "../drivers/fsl_cmt.c"
+Finished building: ../drivers/fsl_cmt.c
+ 
+Building file: ../drivers/fsl_common.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_common.d" -MT"drivers/fsl_common.o" -c -o "drivers/fsl_common.o" "../drivers/fsl_common.c"
+Finished building: ../drivers/fsl_common.c
+ 
+Building file: ../drivers/fsl_crc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_crc.d" -MT"drivers/fsl_crc.o" -c -o "drivers/fsl_crc.o" "../drivers/fsl_crc.c"
+Finished building: ../drivers/fsl_crc.c
+ 
+Building file: ../drivers/fsl_dac.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_dac.d" -MT"drivers/fsl_dac.o" -c -o "drivers/fsl_dac.o" "../drivers/fsl_dac.c"
+Finished building: ../drivers/fsl_dac.c
+ 
+Building file: ../drivers/fsl_dmamux.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_dmamux.d" -MT"drivers/fsl_dmamux.o" -c -o "drivers/fsl_dmamux.o" "../drivers/fsl_dmamux.c"
+Finished building: ../drivers/fsl_dmamux.c
+ 
+Building file: ../drivers/fsl_dspi.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_dspi.d" -MT"drivers/fsl_dspi.o" -c -o "drivers/fsl_dspi.o" "../drivers/fsl_dspi.c"
+Finished building: ../drivers/fsl_dspi.c
+ 
+Building file: ../drivers/fsl_dspi_edma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_dspi_edma.d" -MT"drivers/fsl_dspi_edma.o" -c -o "drivers/fsl_dspi_edma.o" "../drivers/fsl_dspi_edma.c"
+Finished building: ../drivers/fsl_dspi_edma.c
+ 
+Building file: ../drivers/fsl_edma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_edma.d" -MT"drivers/fsl_edma.o" -c -o "drivers/fsl_edma.o" "../drivers/fsl_edma.c"
+Finished building: ../drivers/fsl_edma.c
+ 
+Building file: ../drivers/fsl_enet.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_enet.d" -MT"drivers/fsl_enet.o" -c -o "drivers/fsl_enet.o" "../drivers/fsl_enet.c"
+Finished building: ../drivers/fsl_enet.c
+ 
+Building file: ../drivers/fsl_ewm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_ewm.d" -MT"drivers/fsl_ewm.o" -c -o "drivers/fsl_ewm.o" "../drivers/fsl_ewm.c"
+Finished building: ../drivers/fsl_ewm.c
+ 
+Building file: ../drivers/fsl_flash.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_flash.d" -MT"drivers/fsl_flash.o" -c -o "drivers/fsl_flash.o" "../drivers/fsl_flash.c"
+Finished building: ../drivers/fsl_flash.c
+ 
+Building file: ../drivers/fsl_flexbus.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_flexbus.d" -MT"drivers/fsl_flexbus.o" -c -o "drivers/fsl_flexbus.o" "../drivers/fsl_flexbus.c"
+Finished building: ../drivers/fsl_flexbus.c
+ 
+Building file: ../drivers/fsl_flexcan.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_flexcan.d" -MT"drivers/fsl_flexcan.o" -c -o "drivers/fsl_flexcan.o" "../drivers/fsl_flexcan.c"
+Finished building: ../drivers/fsl_flexcan.c
+ 
+Building file: ../drivers/fsl_ftm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_ftm.d" -MT"drivers/fsl_ftm.o" -c -o "drivers/fsl_ftm.o" "../drivers/fsl_ftm.c"
+Finished building: ../drivers/fsl_ftm.c
+ 
+Building file: ../drivers/fsl_gpio.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_gpio.d" -MT"drivers/fsl_gpio.o" -c -o "drivers/fsl_gpio.o" "../drivers/fsl_gpio.c"
+Finished building: ../drivers/fsl_gpio.c
+ 
+Building file: ../drivers/fsl_i2c.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_i2c.d" -MT"drivers/fsl_i2c.o" -c -o "drivers/fsl_i2c.o" "../drivers/fsl_i2c.c"
+Finished building: ../drivers/fsl_i2c.c
+ 
+Building file: ../drivers/fsl_i2c_edma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_i2c_edma.d" -MT"drivers/fsl_i2c_edma.o" -c -o "drivers/fsl_i2c_edma.o" "../drivers/fsl_i2c_edma.c"
+Finished building: ../drivers/fsl_i2c_edma.c
+ 
+Building file: ../drivers/fsl_llwu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_llwu.d" -MT"drivers/fsl_llwu.o" -c -o "drivers/fsl_llwu.o" "../drivers/fsl_llwu.c"
+Finished building: ../drivers/fsl_llwu.c
+ 
+Building file: ../drivers/fsl_lptmr.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_lptmr.d" -MT"drivers/fsl_lptmr.o" -c -o "drivers/fsl_lptmr.o" "../drivers/fsl_lptmr.c"
+Finished building: ../drivers/fsl_lptmr.c
+ 
+Building file: ../drivers/fsl_mpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_mpu.d" -MT"drivers/fsl_mpu.o" -c -o "drivers/fsl_mpu.o" "../drivers/fsl_mpu.c"
+Finished building: ../drivers/fsl_mpu.c
+ 
+Building file: ../drivers/fsl_pdb.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_pdb.d" -MT"drivers/fsl_pdb.o" -c -o "drivers/fsl_pdb.o" "../drivers/fsl_pdb.c"
+Finished building: ../drivers/fsl_pdb.c
+ 
+Building file: ../drivers/fsl_phy.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_phy.d" -MT"drivers/fsl_phy.o" -c -o "drivers/fsl_phy.o" "../drivers/fsl_phy.c"
+Finished building: ../drivers/fsl_phy.c
+ 
+Building file: ../drivers/fsl_pit.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_pit.d" -MT"drivers/fsl_pit.o" -c -o "drivers/fsl_pit.o" "../drivers/fsl_pit.c"
+Finished building: ../drivers/fsl_pit.c
+ 
+Building file: ../drivers/fsl_pmc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_pmc.d" -MT"drivers/fsl_pmc.o" -c -o "drivers/fsl_pmc.o" "../drivers/fsl_pmc.c"
+Finished building: ../drivers/fsl_pmc.c
+ 
+Building file: ../drivers/fsl_rcm.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_rcm.d" -MT"drivers/fsl_rcm.o" -c -o "drivers/fsl_rcm.o" "../drivers/fsl_rcm.c"
+Finished building: ../drivers/fsl_rcm.c
+ 
+Building file: ../drivers/fsl_rnga.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_rnga.d" -MT"drivers/fsl_rnga.o" -c -o "drivers/fsl_rnga.o" "../drivers/fsl_rnga.c"
+Finished building: ../drivers/fsl_rnga.c
+ 
+Building file: ../drivers/fsl_rtc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_rtc.d" -MT"drivers/fsl_rtc.o" -c -o "drivers/fsl_rtc.o" "../drivers/fsl_rtc.c"
+Finished building: ../drivers/fsl_rtc.c
+ 
+Building file: ../drivers/fsl_sai.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_sai.d" -MT"drivers/fsl_sai.o" -c -o "drivers/fsl_sai.o" "../drivers/fsl_sai.c"
+Finished building: ../drivers/fsl_sai.c
+ 
+Building file: ../drivers/fsl_sai_edma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_sai_edma.d" -MT"drivers/fsl_sai_edma.o" -c -o "drivers/fsl_sai_edma.o" "../drivers/fsl_sai_edma.c"
+Finished building: ../drivers/fsl_sai_edma.c
+ 
+Building file: ../drivers/fsl_sdhc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_sdhc.d" -MT"drivers/fsl_sdhc.o" -c -o "drivers/fsl_sdhc.o" "../drivers/fsl_sdhc.c"
+Finished building: ../drivers/fsl_sdhc.c
+ 
+Building file: ../drivers/fsl_sim.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_sim.d" -MT"drivers/fsl_sim.o" -c -o "drivers/fsl_sim.o" "../drivers/fsl_sim.c"
+Finished building: ../drivers/fsl_sim.c
+ 
+Building file: ../drivers/fsl_smc.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_smc.d" -MT"drivers/fsl_smc.o" -c -o "drivers/fsl_smc.o" "../drivers/fsl_smc.c"
+Finished building: ../drivers/fsl_smc.c
+ 
+Building file: ../drivers/fsl_uart.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_uart.d" -MT"drivers/fsl_uart.o" -c -o "drivers/fsl_uart.o" "../drivers/fsl_uart.c"
+Finished building: ../drivers/fsl_uart.c
+ 
+Building file: ../drivers/fsl_uart_edma.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_uart_edma.d" -MT"drivers/fsl_uart_edma.o" -c -o "drivers/fsl_uart_edma.o" "../drivers/fsl_uart_edma.c"
+Finished building: ../drivers/fsl_uart_edma.c
+ 
+Building file: ../drivers/fsl_vref.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_vref.d" -MT"drivers/fsl_vref.o" -c -o "drivers/fsl_vref.o" "../drivers/fsl_vref.c"
+Finished building: ../drivers/fsl_vref.c
+ 
+Building file: ../drivers/fsl_wdog.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"drivers/fsl_wdog.d" -MT"drivers/fsl_wdog.o" -c -o "drivers/fsl_wdog.o" "../drivers/fsl_wdog.c"
+Finished building: ../drivers/fsl_wdog.c
+ 
+Building file: ../board/board.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"board/board.d" -MT"board/board.o" -c -o "board/board.o" "../board/board.c"
+Finished building: ../board/board.c
+ 
+Building file: ../board/clock_config.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -DDEBUG -DFRDM -DFREEDOM -I../CMSIS -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip/port/arch" -I"/Bascon/KDS/lgt8/lwip/src" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv4/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6" -I"/Bascon/KDS/lgt8/lwip/src/include/ipv6/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/lwip" -I"/Bascon/KDS/lgt8/lwip/src/include/netif" -I"/Bascon/KDS/lgt8/lwip/src/include/posix" -I../board -I../drivers -I../startup -I../utilities -std=gnu99 -MMD -MP -MF"board/clock_config.d" -MT"board/clock_config.o" -c -o "board/clock_config.o" "../board/clock_config.c"
+Finished building: ../board/clock_config.c
+ 
+Building file: ../Sweep/sweep.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -I../CMSIS -I"/Bascon/KDS/lgt8/Sweep" -I"/Bascon/KDS/lgt8/Servo" -I"/Bascon/KDS/lgt8/Monitor" -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip" -I../board -I../drivers -I../startup -I../utilities -std=gnu++11 -fabi-version=0 -MMD -MP -MF"Sweep/sweep.d" -MT"Sweep/sweep.o" -c -o "Sweep/sweep.o" "../Sweep/sweep.cpp"
+Finished building: ../Sweep/sweep.cpp
+ 
+Building file: ../Sweep/sweep_sm.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -I../CMSIS -I"/Bascon/KDS/lgt8/Sweep" -I"/Bascon/KDS/lgt8/Servo" -I"/Bascon/KDS/lgt8/Monitor" -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip" -I../board -I../drivers -I../startup -I../utilities -std=gnu++11 -fabi-version=0 -MMD -MP -MF"Sweep/sweep_sm.d" -MT"Sweep/sweep_sm.o" -c -o "Sweep/sweep_sm.o" "../Sweep/sweep_sm.cpp"
+Finished building: ../Sweep/sweep_sm.cpp
+ 
+Building file: ../Servo/Servo.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -I../CMSIS -I"/Bascon/KDS/lgt8/Sweep" -I"/Bascon/KDS/lgt8/Servo" -I"/Bascon/KDS/lgt8/Monitor" -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip" -I../board -I../drivers -I../startup -I../utilities -std=gnu++11 -fabi-version=0 -MMD -MP -MF"Servo/Servo.d" -MT"Servo/Servo.o" -c -o "Servo/Servo.o" "../Servo/Servo.cpp"
+../Servo/Servo.cpp: In member function 'void antares::Servo::serviceEvents()':
+../Servo/Servo.cpp:79:37: warning: format '%d' expects argument of type 'int*', but argument 3 has type 'uint8_t* {aka unsigned char*}' [-Wformat=]
+       sscanf(mes,"%d", &request_pwm0);
+                                     ^
+../Servo/Servo.cpp:79:37: warning: format '%d' expects argument of type 'int*', but argument 3 has type 'uint8_t* {aka unsigned char*}' [-Wformat=]
+../Servo/Servo.cpp:95:37: warning: format '%d' expects argument of type 'int*', but argument 3 has type 'uint8_t* {aka unsigned char*}' [-Wformat=]
+       sscanf(mes,"%d", &request_pwm0);
+                                     ^
+../Servo/Servo.cpp:95:37: warning: format '%d' expects argument of type 'int*', but argument 3 has type 'uint8_t* {aka unsigned char*}' [-Wformat=]
+../Servo/Servo.cpp: In member function 'void antares::Servo::serviceBoard()':
+../Servo/Servo.cpp:150:12: warning: variable 'tmptick' set but not used [-Wunused-but-set-variable]
+   uint32_t tmptick;
+            ^
+../Servo/Servo.cpp: In member function 'void antares::Servo::EnableServo(bool)':
+../Servo/Servo.cpp:319:7: warning: unused variable 'i' [-Wunused-variable]
+   int i;
+       ^
+Finished building: ../Servo/Servo.cpp
+ 
+Building file: ../Servo/servo_sm.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -I../CMSIS -I"/Bascon/KDS/lgt8/Sweep" -I"/Bascon/KDS/lgt8/Servo" -I"/Bascon/KDS/lgt8/Monitor" -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip" -I../board -I../drivers -I../startup -I../utilities -std=gnu++11 -fabi-version=0 -MMD -MP -MF"Servo/servo_sm.d" -MT"Servo/servo_sm.o" -c -o "Servo/servo_sm.o" "../Servo/servo_sm.cpp"
+Finished building: ../Servo/servo_sm.cpp
+ 
+Building file: ../Monitor/Monitor.cpp
+Invoking: Cross ARM C++ Compiler
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -D"CPU_MK64FN1M0VDC12" -I../CMSIS -I"/Bascon/KDS/lgt8/Sweep" -I"/Bascon/KDS/lgt8/Servo" -I"/Bascon/KDS/lgt8/Monitor" -I"/Bascon/KDS/lgt8/source" -I"/Bascon/KDS/lgt8/lwip/src/include" -I"/Bascon/KDS/lgt8/lwip/port" -I"/Bascon/KDS/lgt8/lwip" -I../board -I../drivers -I../startup -I../utilities -std=gnu++11 -fabi-version=0 -MMD -MP -MF"Monitor/Monitor.d" -MT"Monitor/Monitor.o" -c -o "Monitor/Monitor.o" "../Monitor/Monitor.cpp"
+../Monitor/Monitor.cpp: In member function 'void antares::Monitor::serviceEvents()':
+../Monitor/Monitor.cpp:115:30: warning: format '%d' expects argument of type 'int*', but argument 3 has type 'uint8_t* {aka unsigned char*}' [-Wformat=]
+     sscanf(mes,"%d", &wg20pwm);
+                              ^
+../Monitor/Monitor.cpp:115:30: warning: format '%d' expects argument of type 'int*', but argument 3 has type 'uint8_t* {aka unsigned char*}' [-Wformat=]
+Finished building: ../Monitor/Monitor.cpp
+ 
+Building target: lgt8.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections -Wall  -g3 -T "../MK64FN1M0xxx12_flash.ld" -Xlinker --gc-sections -Wl,-Map,"lgt8.map" -u _printf_float -u _scanf_float -specs=nosys.specs -specs=nano.specs -Xlinker -z -Xlinker muldefs -o "lgt8.elf"  ./utilities/fsl_debug_console.o  ./startup/startup_MK64F12.o ./startup/system_MK64F12.o  ./source/main.o  ./lwip/src/netif/ppp/auth.o ./lwip/src/netif/ppp/chap.o ./lwip/src/netif/ppp/chpms.o ./lwip/src/netif/ppp/fsm.o ./lwip/src/netif/ppp/ipcp.o ./lwip/src/netif/ppp/lcp.o ./lwip/src/netif/ppp/magic.o ./lwip/src/netif/ppp/md5.o ./lwip/src/netif/ppp/pap.o ./lwip/src/netif/ppp/ppp.o ./lwip/src/netif/ppp/ppp_md5.o ./lwip/src/netif/ppp/ppp_oe.o ./lwip/src/netif/ppp/randm.o ./lwip/src/netif/ppp/vj.o  ./lwip/src/netif/etharp.o ./lwip/src/netif/slipif.o  ./lwip/src/core/snmp/asn1_dec.o ./lwip/src/core/snmp/asn1_enc.o ./lwip/src/core/snmp/mib2.o ./lwip/src/core/snmp/mib_structs.o ./lwip/src/core/snmp/msg_in.o ./lwip/src/core/snmp/msg_out.o  ./lwip/src/core/ipv4/autoip.o ./lwip/src/core/ipv4/icmp.o ./lwip/src/core/ipv4/igmp.o ./lwip/src/core/ipv4/inet.o ./lwip/src/core/ipv4/inet_chksum.o ./lwip/src/core/ipv4/ip.o ./lwip/src/core/ipv4/ip_addr.o ./lwip/src/core/ipv4/ip_frag.o  ./lwip/src/core/def.o ./lwip/src/core/dhcp.o ./lwip/src/core/dns.o ./lwip/src/core/init.o ./lwip/src/core/lwip_timers.o ./lwip/src/core/mem.o ./lwip/src/core/memp.o ./lwip/src/core/netif.o ./lwip/src/core/pbuf.o ./lwip/src/core/raw.o ./lwip/src/core/stats.o ./lwip/src/core/sys.o ./lwip/src/core/tcp.o ./lwip/src/core/tcp_in.o ./lwip/src/core/tcp_out.o ./lwip/src/core/udp.o  ./lwip/src/api/api_lib.o ./lwip/src/api/api_msg.o ./lwip/src/api/err.o ./lwip/src/api/netbuf.o ./lwip/src/api/netdb.o ./lwip/src/api/netifapi.o ./lwip/src/api/sockets.o ./lwip/src/api/tcpip.o  ./lwip/port/ethernetif.o ./lwip/port/sys_arch.o  ./lwip/fs.o ./lwip/fsdata.o ./lwip/httpd.o  ./drivers/fsl_adc16.o ./drivers/fsl_clock.o ./drivers/fsl_cmp.o ./drivers/fsl_cmt.o ./drivers/fsl_common.o ./drivers/fsl_crc.o ./drivers/fsl_dac.o ./drivers/fsl_dmamux.o ./drivers/fsl_dspi.o ./drivers/fsl_dspi_edma.o ./drivers/fsl_edma.o ./drivers/fsl_enet.o ./drivers/fsl_ewm.o ./drivers/fsl_flash.o ./drivers/fsl_flexbus.o ./drivers/fsl_flexcan.o ./drivers/fsl_ftm.o ./drivers/fsl_gpio.o ./drivers/fsl_i2c.o ./drivers/fsl_i2c_edma.o ./drivers/fsl_llwu.o ./drivers/fsl_lptmr.o ./drivers/fsl_mpu.o ./drivers/fsl_pdb.o ./drivers/fsl_phy.o ./drivers/fsl_pit.o ./drivers/fsl_pmc.o ./drivers/fsl_rcm.o ./drivers/fsl_rnga.o ./drivers/fsl_rtc.o ./drivers/fsl_sai.o ./drivers/fsl_sai_edma.o ./drivers/fsl_sdhc.o ./drivers/fsl_sim.o ./drivers/fsl_smc.o ./drivers/fsl_uart.o ./drivers/fsl_uart_edma.o ./drivers/fsl_vref.o ./drivers/fsl_wdog.o  ./board/board.o ./board/clock_config.o  ./Sweep/sweep.o ./Sweep/sweep_sm.o  ./Servo/Servo.o ./Servo/servo_sm.o  ./Monitor/Monitor.o   
+Finished building target: lgt8.elf
+ 
+Invoking: Cross ARM GNU Create Flash Image
+arm-none-eabi-objcopy -O binary "lgt8.elf"  "lgt8.bin"
+Finished building: lgt8.bin
+ 
+Invoking: Cross ARM GNU Print Size
+arm-none-eabi-size --format=berkeley "lgt8.elf"
+   text	   data	    bss	    dec	    hex	filename
+ 165556	    260	  45956	 211772	  33b3c	lgt8.elf
+Finished building: lgt8.siz
+ 

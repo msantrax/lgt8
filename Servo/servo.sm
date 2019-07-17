@@ -1,0 +1,41 @@
+
+%{
+
+//Externs
+
+%}
+
+%start ServoAdm::ColdStart
+%class Servo
+%fsmclass ServoContext
+%header Servo.h
+%package antares
+
+%map ServoAdm
+%%
+ColdStart
+    Entry	{	ShowStatus("ColdStart\n\r");
+    			SetupHardware();
+    			TickCallback();}
+{
+    Tick
+        Idle{}        
+}
+
+
+Idle
+    Entry	{ClearQueue();}
+{
+    Tick 	nil				{ToggleFlag();}
+ 
+  
+}
+
+Default
+{
+	JobDone	 nil			{JobisDone();} 
+
+}
+	
+
+%%

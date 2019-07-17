@@ -1,0 +1,69 @@
+
+%{
+
+//Externs
+
+%}
+
+%start Adm::ColdStart
+%class Sweep
+%fsmclass SweepContext
+%include "sweepdefs.h"
+%header sweep.h
+%package antares
+
+%map Adm
+%%
+ColdStart
+    Entry	{	ShowStatus("ColdStart\n\r");
+    			SetupHardware();
+    			TickCallback();}
+{
+    Tick
+        Idle{}        
+}
+
+
+Idle
+    Entry	{ClearQueue();}
+{
+    Tick 	nil									{ToggleFlag();}
+    Park	[ctxt.isParked()==true]	setParked	{}
+    Park	[ctxt.isInside()==true] searchOut	{}
+    Park	[ctxt.isOutside()==true] searchIn	{}    
+  
+}
+
+setParked
+	Entry	{	Park();
+				TickCallback();}
+{
+	Tick	Idle		{}
+}
+
+searchOut
+	Entry	{	Slide (1, 4);}
+{
+	JobDone	 [ctxt.isParked()==true]	setParked	{}
+	JobDone	 [ctxt.isInside()==true] 	searchOut	{}
+	
+}
+
+searchIn
+	Entry	{	 Slide (-1, 4);}
+{
+	JobDone	 [ctxt.isParked()==true]	setParked	{}
+	JobDone	 [ctxt.isOutside()==true] 	searchIn	{}
+	
+}
+
+
+Default
+{
+	JobDone	 nil	{JobisDone();} 
+
+}
+	
+
+
+%%
