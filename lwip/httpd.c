@@ -97,7 +97,7 @@
 
 
 #ifndef HTTPD_DEBUG
-#define HTTPD_DEBUG LWIP_DBG_OFF
+#define HTTPD_DEBUG LWIP_DBG_ON
 #endif
 
 
@@ -722,6 +722,8 @@ static struct fs_file *http_get_404_file(struct http_state *hs, const char **uri
  *         another err_t otherwise
  */
 static err_t http_parse_request(struct pbuf **inp, struct http_state *hs, struct tcp_pcb *pcb){
+
+
 
 	char *data;
     char *crlf;
