@@ -1,2 +1,2 @@
 # lgt8
-ARM M4 Firmware - Antares controller to gas adsorption analytical instrument
+ARM M4 Firmware - Antares Controller to Precision Geological Sample Preparation Device
